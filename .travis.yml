@@ -1,5 +1,15 @@
 sudo: false
+
 language: ruby
+
 rvm:
   - 2.4.0
-before_install: gem install bundler -v 1.15.1
+
+cache: bundler
+
+git:
+  submodules: false
+
+before_install:
+  - gem update bundler
+  - gem update --system
