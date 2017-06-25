@@ -3,7 +3,8 @@ module Messages
   class Payload
     PAYLOAD_PARAMS = %i[
       channel
-      text parse
+      text
+      parse
       link_names
       attachments
       unfurl_links
