@@ -6,7 +6,7 @@ module IncomingWebhooks
     end
 
     def post(payload)
-      Connection.send(@url, payload.to_params)
+      Slack::Http::Connection.send(@url, payload.to_params)
     end
   end # Client
 end # IncomingWebhooks
