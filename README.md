@@ -54,7 +54,7 @@ payload.attachments = [attachment]
 slack.post(payload)
 ```
 
-TODO: image
+![attachment](./images/attachment.png)
 
 #### with field
 
@@ -84,7 +84,7 @@ payload.attachments = [attachment]
 slack.post(payload)
 ```
 
-TODO: image
+![field](./images/field.png)
 
 ## TODO
 
