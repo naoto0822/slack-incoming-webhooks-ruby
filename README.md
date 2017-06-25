@@ -1,5 +1,6 @@
 # slack-incoming-webhooks-ruby
 
+[![Gem Version](https://badge.fury.io/rb/slack-incoming-webhooks-ruby.svg)](https://badge.fury.io/rb/slack-incoming-webhooks-ruby)
 [![Build Status](https://travis-ci.org/naoto0822/slack-incoming-webhooks-ruby.svg?branch=master)](https://travis-ci.org/naoto0822/slack-incoming-webhooks-ruby)
 
 Ruby Client of Slack Incoming webhooks.
