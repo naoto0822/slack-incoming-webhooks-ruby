@@ -1,24 +1,19 @@
 sudo: false
-
 language: ruby
-
 rvm:
   - 2.4.0
-
 cache: bundler
-
 git:
   submodules: false
-
 before_install:
   - gem update --system
   - gem update bundler
-
 script:
   - bundle exec rake spec
-
 after_success:
   - echo "success"
-
 after_failure:
   - echo "failure"
+notifications:
+  slack:
+    secure: gPy0UwXMT/GSRQFyyADs+8kQqLLDdCYi4uTcnUYNIcOgp8L+0t6DCZOKE9uaJZJLfr2RWdOMDjBkLp7UL5hpvwQKu7dBrzLa71HDudIKTQHuGEOfpTL1/x/HU36EPJAIrsRZK8c0f4wF3YJsxMMWtosMCUFe1rGb9uQMvDSUkwwYwcHRltrWIHuUazmLso4oezEkSyWM5v2z9C3BSZWf2v6l1I57j1n3EzHUn5GSabyDPFlWU/s12LPzsdOozQCzEqzmE+3imly0Fnz08w1rpwMdis+PrZIJ3Dj8BpLls/PqMTMeYaSqIm8G4Js2LlM34HJKYAWu+DfXYUy35I6fLSbH/jR3knF24Ohio6B4UNWj/Hv/Nc0EEpixcz3K4Fpm3OToiB2MGKl7ErPkWF4iLW4c6aFePg07pHR+8lyLHK/PJi8JRwzXB44q1Hf5Z1Q7z6zee6aupGK097nTUEE06/2Y3FK5qzKOTEFOZ2+U4dkTwiUUmGnEHy9teztdPAd3cH9vCicaFWQqaU/+n/P/zEEDC6q3kya9ZMdibGCRYnkFkcMkLuiqNivCL4o1LBTzC8nQFohwoa+JYB7SIpZkyIZOmV+HqQYBjL5vMW4cOLNzNVIT62oFoEIws8810On3r7i5N2OlJfy67Mj67go8VghBuCeQZCvn+OJ8tUoVauA=
