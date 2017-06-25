@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "slack/incoming/webhooks/ruby"
+require "slack-incoming-webhooks-ruby"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
