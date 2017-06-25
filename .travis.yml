@@ -11,5 +11,14 @@ git:
   submodules: false
 
 before_install:
-  - gem update bundler
   - gem update --system
+  - gem update bundler
+
+script:
+  - bundle exec rake spec
+
+after_success:
+  - echo "success"
+
+after_failure:
+  - echo "failure"
