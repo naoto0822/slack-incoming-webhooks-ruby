@@ -2,7 +2,7 @@
 
 Ruby Client of Slack Incoming webhooks.
 
-Slack
+About Slack incoming-webhooks
 - [slack incoming webhooks](https://api.slack.com/incoming-webhooks)
 
 ## Installation
@@ -15,7 +15,7 @@ gem 'slack-incoming-webhooks-ruby'
 
 ## Usage
 
-### Setting IncomingWebhooks
+### Setting Incoming webhooks
 
 Start by setting up an [incoming webhook integration](https://my.slack.com/services/new/incoming-webhook/) in your Slack team.
 
@@ -34,7 +34,7 @@ payload.text = 'sample text'
 slack.post(payload)
 ```
 
-TODO: image
+![normal](./images/normal.png)
 
 #### with attachment
 
