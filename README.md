@@ -31,9 +31,9 @@ require 'slack-incoming-webhooks-ruby'
 
 url = ENV['SLACK_WEBHOOK_URL']
 slack = Slack::IncomingWebhooks::Client.new(url)
-
 payload = Slack::Messages::Payload.new
 payload.text = 'sample text'
+
 slack.post(payload)
 ```
 
@@ -88,11 +88,6 @@ slack.post(payload)
 ```
 
 ![field](./images/field.png)
-
-## TODO
-
-- [ ] spec
-- [ ] CI
 
 ## Development
 
