@@ -2,6 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/slack-incoming-webhooks-ruby.svg)](https://badge.fury.io/rb/slack-incoming-webhooks-ruby)
 [![Build Status](https://travis-ci.org/naoto0822/slack-incoming-webhooks-ruby.svg?branch=master)](https://travis-ci.org/naoto0822/slack-incoming-webhooks-ruby)
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/naoto0822/slack-incoming-webhooks-ruby/blob/master/LICENSE.txt)
 
 Ruby Client of Slack Incoming webhooks.
 
@@ -12,7 +13,7 @@ About Slack incoming-webhooks
 
 Add this line to your application's Gemfile:
 
-```ruby
+```gem
 gem 'slack-incoming-webhooks-ruby'
 ```
 
